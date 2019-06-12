@@ -3,11 +3,11 @@
 * Slight quirk - refreshing doesn't work from any path other than the default one so you will have to go back to the default path to refresh
 
 ### App.js
-* Import BrowserRouter,Switch and Route from react-router-dom
+* Import BrowserRouter,Switch and Route from react-router-dom **DONE**
 * Import components needed
 * Create the appropriate routes `{/* PUT YOUR ROUTES HERE */}`
 * Make sure the default route goes at the bottom
-* Make sure BrowserRouter wraps everything
+* Make sure BrowserRouter wraps everything **DONE**
 * Make sure you use the component prop, not render.
 
 ### Routes
@@ -27,13 +27,13 @@
 * Wall.js
 
 ### Existing components
-* Profiles.js
+* Profiles.js **DONE**
     * Import Link from react-router-dom
     * change the `<a>` to be a Link that links to `/profile/ + user.id`
-* Profile.js 
+* Profile.js **DONE**
     * Change the hard coded 0 with the value from the parameter id
 * Dashboard.js
-* Marquee
+* Marquee **DONE**
     * replace the hard coded "hello" with the text parameter from the route
 
 ### SideNav
